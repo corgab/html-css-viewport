@@ -14,22 +14,99 @@ a {
 	color: currentColor;
 }
 
+body {
+    color: white;
+}
+
+/* LAYOUT */
+
 .top-container {
     height: calc(100vh - 100px);
-    background-color: blue;
+    background-color: black;
     display: flex;
 }
 
 .bottom-container {
     height: 100px;
-    background-color: orange;
+    background-color: #282828;
 }
 
 .sidebar {
     flex-basis: 300px;
+    color: white;
 }
 
 main {
     flex-grow: 1;
-    background-color: red;
+    background-color: #141923;
 }
+
+.sidebar .logo {
+    padding: 10px;
+}
+
+.sidebar .nav {
+    padding: 0px 30px;
+}
+ 
+.profile {
+    padding-left: 10px;
+}
+
+/* .sidebar .profile {
+    position
+ } */
+
+
+.main .abbonati {
+    background-color: white;
+    align-items: center;
+}
+
+.main-top-container {
+    height: 75px;
+    background-color: #0E121B;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 10px;
+}
+
+.abbonamento {
+    padding: 15px;
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-3 {
+    width: calc(3 * 100% / 12);
+    border-left: 3px solid white;
+    padding: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.footer .list {
+    list-style: none;
+
+}
+
+ul > * {
+    padding: 5px 10px;
+}
+
+.footer > * {
+    padding: 5px 10px;
+}
+
+
